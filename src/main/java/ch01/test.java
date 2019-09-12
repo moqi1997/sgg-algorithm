@@ -1,6 +1,6 @@
 package ch01;
 
-public class SparseArray {
+public class test {
     public static void main(String[] args) {
         //创建一个原始大的二维数组11 * 11
         //0: 表示没有棋子
