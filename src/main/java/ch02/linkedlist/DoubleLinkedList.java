@@ -1,5 +1,8 @@
 package ch02.linkedlist;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+
 public class DoubleLinkedList {
 }
 class dlln {
@@ -15,6 +18,7 @@ class dlln {
         }
         temp.next = node;
         node.pre = temp;
+
     }
 }
 class DoubleLinkedListNode {
