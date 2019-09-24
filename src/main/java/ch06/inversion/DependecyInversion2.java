@@ -1,10 +1,15 @@
 package ch06.inversion;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+
 public class DependecyInversion2 {
     public static void main(String[] args) {
         Person1 person = new Person1();
         person.receive(new Email1());
         person.receive(new WeChat());
+
+
     }
 }
 interface IRecerver {
